@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background-color: #1d1d1e;
+  background-color: #302D28;
   font-family: "Roboto", sans-serif;
 }
 
@@ -20,7 +20,7 @@ body {
   top: 0;
   height: 100%;
   width: 6.9444%;
-  background-color: #1d1d1e;
+  background-color: #302D28;
   z-index: 3;
   width: 6.9444%;
 }
@@ -58,6 +58,7 @@ body {
   transition: all 0.4s cubic-bezier(0.55, 0.085, 0.68, 0.53);
   border: solid 1px #BFA650;
   border-radius: 10px;
+  margin-top: 20px;
 }
 .timeline-carousel__item:last-child .timeline-carousel__item-inner:after {
   width: calc(100% - 30px);
@@ -101,7 +102,7 @@ body {
 .timeline-carousel__item-inner .month {
   font-size: 12px;
   text-transform: uppercase;
-  color: #b38c52;
+  color: #D3A662;
   display: block;
   margin-bottom: 10px;
   font-weight: 900;
@@ -231,3 +232,67 @@ body {
   margin-right: 8px;
   color: #fff;
 }
+
+.indice{
+  color: #FFE71B;
+  padding: 10px;
+}
+
+.indice li{
+  padding: 5px;
+}
+
+.indiceBtn{
+  color: #FFE71B;
+  padding: 10px;
+  background-color: #524623;
+  margin: 5px;
+  width: 70px;
+  border-radius: 10px;
+  border: solid 1px #FFE71B;
+}
+
+.indiceBtn:hover{
+  cursor: pointer;
+}
+
+.plegable{
+  height:0;
+  overflow:hidden;
+  padding: 2px;
+  margin: 25px;
+}
+
+
+#tablaTemas {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#tablaTemas td, #tablaTemas th {
+  border: 1px solid #362A10;
+  padding: 8px;
+  vertical-align: middle;
+}
+
+#tablaTemas td{
+    font-size: 11px;
+}
+
+
+
+#tablaTemas tr:nth-child(even){background-color: #DCDCDC;}
+#tablaTemas tr:nth-child(odd){background-color: #EEEEEE;}
+
+#tablaTemas tr:hover {background-color: #F2FFFF;}
+
+#tablaTemas th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #D7A700;
+  color: white;
+}
+
+
